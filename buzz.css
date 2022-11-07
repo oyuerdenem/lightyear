@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    padding: 15px;
+    display: flex;
+    background-color: white;
+    height: 40px;
+}
+    .link{
+        margin: 10px;
+        width: 100px;
+    }
+        .link p a{
+            color: black;
+            font-weight: bolder;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    #logo{
+        width: 100px;
+        align-items: center;
+    }
+        #logo img{
+            width: 80px;
+        }
+    #disney-button{
+        width: 100px;
+        text-align: center;
+    }
+    #park-travel-button{
+        width: 100px;
+        text-align: center;
+    }
+    #movies-button{
+        width: 100px;
+        text-align: center;
+    }
+    #shop-button{
+        width: 100px;
+        text-align: center;
+    }
+    #more-button{
+        width: 100px;
+        text-align: center;
+    }
+    #search-input{
+        width: 100px;
+        right: 0;
+        text-align: center;
+    }
+
+.slide-image{
+    width: 100%;
+    height: 600px;
+    display: flex;
+
+}
+    .background-image{
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        
+    }
+        .background-image img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+    .detail-image{
+        width: 100%;
+        height: 596px;
+        background-color: black;
+        opacity: 0.4;
+        position: absolute;
+    }
+    .slide-image-info{
+        position: absolute;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        bottom: 90px;
+    }
+        .slide-image-info .text{
+            width: 850px;
+            flex-wrap: wrap;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            .slide-image-info .text h5{
+                color: white;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 25px;
+                font-weight: lighter;
+            }
+        .slide-image-info .logo{
+            width: 100%;
+        }  
+            .slide-image-info .logo img{
+                width: 400px;
+                height: auto;
+            }
+        .slide-image-info .detail-buttons{
+            width: 100%;
+            text-align: center;
+        }
+            .detail-buttons .buttons{
+                display: flex;
+                width: 100%;
+            }
+                .detail-buttons .buttons .shop-button{
+                    width: 49%;
+                }
+                    .detail-buttons .buttons button{
+                        width: 250px;
+                        padding: 10px;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        background-color: white;
+                        border-radius: 25px;
+                        font-size: 15px;
+                        border-style: none;
+                    }
+                .detail-buttons .buttons .stream-button{
+                    width: 49%;
+                }
+.all-info{
+    padding: 50px;
+    background-color: F2F3F3;
+}
+    .content{
+        display: flex;
+    }
+        .content .image{
+            width: 50%;
+        }
+            .content .image img{
+                padding-left: 50px;
+                padding-right: 50px;
+                width: 480px;
+                height: auto;
+            }     
+        .content .content-info{
+            padding-left: 50px;
+            padding-right: 50px;
+        }   
+            .content .content-info .content-name h1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: normal;
+                font-size: 40px;
+                color: 181818;
+            }
+            .content-info .content-details .detail{
+                margin-top: 6px;
+            }
+                .content-info .content-details .detail p{
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: lighter;
+                    font-size: 15px;
+                    color: 181818;
+                }
+                    .content .content-details .detail p b{
+                        font-weight: normal;
+                    }
+        .content .content-summary{
+            margin-top: 30px;
+            width: 450px;
+            flex-wrap: wrap;
+        }
+            .content .content-summary p{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 17px;
+                color: 181818;
+                font-weight: lighter;
+                line-height: 23px;
+            }
+        .content .content-icons{
+            margin-top: 30px;
+            display: flex;
+        }
+            .content-icons .icon{
+                margin-right: 30px;
+            }
+                .content-icons .icon .fa{
+                    text-decoration: none;
+                    color: #181818;
+                    font-size: 25px;
+                }
+        .content .content-direct{
+            margin-top: 30px;
+        }
+            .content .content-direct h2{
+                font-size: 20px;
+                color: #181818;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: normal;
+            }
+            .content-direct p{
+                margin-top: 10px;
+                font-size: 17px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                color: #181818;
+            }
+        .content .content-produce{
+            margin-top: 30px;
+        }
+            .content .content-produce h2{
+                font-size: 20px;
+                color: #181818;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: normal;
+            }
+            .content-produce p{
+                margin-top: 10px;
+                font-size: 17px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                color: #181818;
+            }
+        .content .content-cast{
+            margin-top: 30px;
+        }   
+            .content .content-cast h2{
+                font-size: 20px;
+                color: #181818;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: normal;
+            }
+            .content-cast p{
+                margin-top: 10px;
+                font-size: 17px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                color: #181818;
+            }
+        .content .content-logo{
+            margin-top: 30px;
+        }
+            .content-logo img{
+                width: 60px;
+                height: auto;
+            }
+        .content .content-links{
+            margin-top: 30px;
+            display: flex;
+        }
+            .content-links div p{
+                
+                font-size: 17px;
+                margin-right: 50px;
+            }
+                .content-links div p a{
+                    text-decoration: none;
+                    color: #181818;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: lighter;
+                }
+    .all-info .partners{
+        text-align: center;
+        padding: 50px;
+    }
+        .partners .partner-text h3{
+            margin-top: 50px;
+            font-size: 20px;
+            font-weight: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #181818;
+        }
+        .partners .partner-logos{
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+            .partner-logos .logo{
+                margin: 20px;
+                text-align: center;
+                align-items: center;
+            }
+                .partner-logos .logo img{
+                    width: 130px;
+                }
+    .all-info .videos{
+        padding: 50px;
+    }
+        .videos .videos-text h3{
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #181818;
+        }
+        .videos .big-video{
+            display: flex;
+            margin-top: 20px;
+        }
+            .big-video .video{
+                text-align: left;
+                margin-right: 20px;
+            }
+            .videos .big-video .video iframe{
+                width: 400px;
+                height: 226px;
+                text-align: left;
+                border-radius: 3px;
+                
+            }
+            .video a {
+                text-decoration: none;
+                color: #181818;
+                font-weight: normal;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 19px;
+            }
+
+    .all-info .related-articles{
+        padding: 50px;
+    }
+        .related-articles .related-text h3{
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #181818;
+        }
+        .related-articles .big-news{
+            display: flex;
+        }
+            .big-news .news{
+                width: 400px;
+                height: 226px;
+                margin-right: 20px;
+            }
+            .big-news .news .video img{
+                width:400px;
+                height: auto;
+            }
+                .news .info{
+                    background-color: white;
+                    padding: 20px;
+                }
+                    .info .brand p{
+                        font-size: 12px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        color: #181818;
+                        font-weight: lighter;
+                    }
+                        .info .brand p b{
+                            font-weight: normal;
+                        }
+                    .info .name{
+                        margin-top: 10px;
+                        height: 65px;
+                    }
+                        .info .name h5{
+                            font-size: 18.5px;
+                            color: #181818;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-weight: normal;
+                        }
+                    .info .date{
+                        margin-top: 10px;
+                    }
+                        .info .date p{
+                            font-size: 10px;
+                            color: #181818;
+                            font-weight: lighter;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                        }
+        .all-info .content-slides{
+            padding: 50px;
+        }
